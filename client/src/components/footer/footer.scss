@@ -1,0 +1,45 @@
+.footer{
+    padding: 20px;
+    max-width: 1024px;
+    margin: auto;
+    .fWrapper{
+        width: 100%;
+        .fTop{
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            .fItems{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content:flex-start;
+                h3{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .fBottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            .fBottomLeft{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                .fBottomLeftTitle{
+                    font-weight: bold;
+                    font-size: 24px;
+                    color: #2879fe; 
+                }
+                span{
+                    color: gray;
+                    font-size: 14px;
+                }
+            }
+            img{
+                height: 45px;
+            }
+        }
+    }
+}
